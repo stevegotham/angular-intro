@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app="myApp" ng-controller="myCtrl" ng-cloak>
+    <head>
+        <link rel="stylesheet" href="main.css" type="text/css" />
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    </head>
+    <body>
+        <button ng-click="myFunc()">Click me!</button>
+        <h1>{{ message }}</h1>
+        <button ng-click="secondFunc()">Click me!</button>
+        <ul id="list" class='hide'>
+            <li>1</li>
+            <li>B</li>
+            <li>4</li>
+        </ul>
+    <script src="myApp.js"></script>
+    <script src="myCtrl.js"></script>
+    </body>
+</html>
