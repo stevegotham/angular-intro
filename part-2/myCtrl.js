@@ -13,7 +13,7 @@ app.controller("myCtrl", function($scope) {
     
     // ===== add exclamation point ======
     $scope.shout = function() {
-        h1.innerHTML = h1.innerHTML + '!'
+        h1.innerHTML +='!'
     }
     
     // ===== confirm link clicks ======
