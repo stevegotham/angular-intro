@@ -21,7 +21,6 @@ app.controller("myCtrl", function($scope) {
         var result = confirm("Do you want to go to the link?");
             if(!result) {
                 event.preventDefault();
-                console.log(this)
                 document.getElementById('body').removeChild(this);
             }
         }
